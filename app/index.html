@@ -15,18 +15,17 @@
 
     <!-- FontAwesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
-
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
-    <!-- github acitivity css -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
 
-    <!-- Theme CSS -->
+    <!--build:css css/vendor.min.css-->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!--endbuild-->
+
+    <!--build:css css/styles.min.css-->
     <link id="theme-style" rel="stylesheet" href="css/styles.css">
+    <!--endbuild-->
 
 </head>
 
@@ -304,6 +303,7 @@
     </footer><!--//footer-->
 
     <!-- Javascript -->
+    <!--build:js js/vendor.min.js -->
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
     <script type="text/javascript" src="assets/plugins/moment.min.js"></script>
@@ -314,8 +314,11 @@
     <!-- github activity plugin -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+    <!-- endbuild -->
     <!-- custom js -->
+    <!--build:js js/main.min.js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
 
